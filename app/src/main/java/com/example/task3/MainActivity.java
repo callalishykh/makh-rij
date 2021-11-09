@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
                         new Subpoints("2", "          ک",
                                 "Portion of Tongue near its base\n" +
                                         "touching the roof of mouth"),
-                }, R.drawable.halqiya),
+                }, R.drawable.lahatiyah),
                 new Emissionpoints("Shajariyah-\n" +
                         "Haafiyah", new Subpoints[]{
                         new Subpoints("1", "       ج ش ی",
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                         new Subpoints("2", "          ض",
                                 "One side of the tongue\n" +
                                         "touching the molar teeth"),
-                }, R.drawable.halqiya),
+                }, R.drawable.shajariyah),
                 new Emissionpoints("Tarfiyah", new Subpoints[]{
                         new Subpoints("1", "         ل",
                                 "Rounded tip of the tongue\ntouching the base of the\nfrontal 8 teeth"),
@@ -185,13 +185,13 @@ public class MainActivity extends AppCompatActivity {
                                 "Rounded tip of the tongue and\n" +
                                         "some portion near it touching\n" +
                                         "the base of the frontal 4 teeth"),
-                }, R.drawable.halqiya),
+                }, R.drawable.tarfiyah),
                 new Emissionpoints("Nit-eeyah", new Subpoints[]{
                         new Subpoints("1", "       ت د ط",
                                 "Tip of the tongue touching the\n" +
                                         "base of the front 2 teeth"),
 
-                }, R.drawable.halqiya),
+                }, R.drawable.niteeyah),
                 new Emissionpoints("Lisaveyah", new Subpoints[]{
                         new Subpoints("1", "       ظ ذ ث",
                                 "Tip of the tongue touching the\n" +
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
                                 "Tip of the tongue comes\n" +
                                         "between the front top and\n" +
                                         "bottom teeth"),
-                }, R.drawable.halqiya),
+                }, R.drawable.lisaveyah),
                 new Emissionpoints("Ghunna", new Subpoints[]{
                         new Subpoints("1", "         م ن",
                                 "While pronouncing the ending\n" +
@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
                         new Subpoints("5", "          و",
                                 "Rounding both lips and not\n" +
                                         "closing the mouth"),
-                }, R.drawable.halqiya),
+                }, R.drawable.ghunna),
 
         };
     }
