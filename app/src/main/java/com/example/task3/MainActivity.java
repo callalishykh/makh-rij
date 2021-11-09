@@ -2,6 +2,7 @@ package com.example.task3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button Tarfiyah;
     private Button Niteeyah;
     private Button Lisaveyah;
+    private Button quiz;
     private ImageView imageView;
     Emissionpoints [] emissionpoints;
     private Button Ghunna;
@@ -92,6 +94,14 @@ public class MainActivity extends AppCompatActivity {
                 createTabale(emissionpoints[6]);
             }
         });
+        quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, com.example.task3.quiz.class);
+
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -140,6 +150,8 @@ public class MainActivity extends AppCompatActivity {
         Ghunna= findViewById(R.id.Ghunna);
         imageView =findViewById(R.id.imageView);
         textView = findViewById(R.id.textView);
+        quiz = findViewById(R.id.quiz);
+
         Subpoints a1=new Subpoints("1","          ه أ","End of Throat");
         Subpoints a2=new Subpoints("2","          ح ع","End of Throat");
         Subpoints a3=new Subpoints("3","          خ غ","End of Throat");
